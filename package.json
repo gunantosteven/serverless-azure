@@ -1,0 +1,27 @@
+{
+  "name": "sls-az-func-rest-api",
+  "version": "1.0.0",
+  "description": "Azure Functions sample for the Serverless framework",
+  "scripts": {
+    "start": "func host start",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "test": "jest"
+  },
+  "keywords": [
+    "azure",
+    "serverless"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "serverless-azure-functions": "^2.1.1",
+    "serverless-webpack": "^5.5.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
